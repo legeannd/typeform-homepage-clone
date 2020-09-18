@@ -6,7 +6,10 @@ export const Main = styled.main`
     background: red;
     overflow: hidden;
 
-    .offset {}
+    .offset {
+      width: 100%;
+      height: 100%;
+    }
 
     .a {
       background: #f5f1ea;
