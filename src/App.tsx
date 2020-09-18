@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import FirstAndSecond from './components/FirstAndSecond';
 import { Main, Section, Sticky } from './styles';
 
 import GlobalStyles from './styles/global';
 
 function App() {
+  useEffect(() => {
+    window.scrollTo({ top: 0 })
+  }, [])
+
   return (
     <>
       <GlobalStyles />
