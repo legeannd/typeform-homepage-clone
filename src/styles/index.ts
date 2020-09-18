@@ -1,8 +1,49 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-export const Main = styled.main``;
+export const Main = styled.main`
+  .first {
+    background: red;
+    overflow: hidden;
 
-export const Section = styled.div``;
+    .offset {}
 
-export const Sticky = styled.div``;
+    .a {
+      background: #f5f1ea;
+    }
+    
+    .b {
+      background: #582534;
+    }
+    
+    .c {
+      background: #0a7393;
+    }
+  }
+
+  .second {
+    background: green;
+  }
+
+  .third {
+    background: yellow;
+  }
+
+  .fourth {
+    background: blue;
+  }
+
+
+`;
+
+export const Section = styled.div`
+  position: relative;
+`;
+
+export const Sticky = styled(motion.div)`
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+`;
