@@ -11,6 +11,8 @@
 
 This is a simple clone of Typeform site homepage animations using the Framer Motion lib and Styled Components.
 
+Check this site working now: http://bit.ly/typeform-clone
+
 ## Content
   * [How to run the project](#installation)
 
@@ -24,6 +26,9 @@ Install all dependencies using the `yarn` command, and run `yarn start` to open 
 ## Sobre o projeto <a id="secao-pt_br"></a>
 
 Este é um clone simples das animações da homepage do site do Typeform usando a biblioteca Framer Motion e Styled Components.
+
+Veja esse site funcionando agora: http://bit.ly/typeform-clone
+
 ## Conteúdos
   * [Como executar o projeto](#instalacao)
 
