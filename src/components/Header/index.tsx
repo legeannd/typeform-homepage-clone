@@ -13,7 +13,9 @@ const Header: React.FC = () => {
   );
 
   return (
-    <Container style={{ y: headerY }} />
+    <Container style={{ y: headerY }} >
+      This is a header
+    </Container>
   );
 };
 

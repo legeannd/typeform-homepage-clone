@@ -6,6 +6,10 @@ export const Container = styled(motion.header)`
   height: 200px;
   background: rgba(0, 0, 0, 0.1);
 
+  text-align: center;
+  font-size: 40px;
+  padding: 40px;
+
   position: fixed;
   top: 0;
   z-index: 999;
